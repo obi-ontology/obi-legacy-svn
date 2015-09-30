@@ -1,13 +1,13 @@
-= Ontology for Biomedical Investigations Release 2015-04-13 =
+= Ontology for Biomedical Investigations Release 2015-09-15 =
 
-Date of Release: 2015-04-13
+Date of Release: 2015-09-15
 
-Subversion Revision: 3982
+Subversion Revision: 4002
 
 == Access ==
 
-* This version in OWL format: http://purl.obolibrary.org/obo/obi/2015-04-13/obi.owl
-* This release directory in Subversion: https://sourceforge.net/p/obi/code/HEAD/tree/releases/2015-04-13/
+* This version in OWL format: http://purl.obolibrary.org/obo/obi/2015-09-15/obi.owl
+* This release directory in Subversion: https://sourceforge.net/p/obi/code/HEAD/tree/releases/2015-09-15/
 * Latest Version in OWL format: http://purl.obolibrary.org/obo/obi.owl
 * Latest Version in OBO format: http://purl.obolibrary.org/obo/obi/obi.obo
 * Browse Latest Version: http://purl.obolibrary.org/obo/obi/browse
@@ -30,17 +30,20 @@ Please see the Tutorials for instructions on downloading and viewing: http://obi
 ** obi.txt: report on term types and source ontologies
 ** obi.tsv: a list of all the terms in obi.owl
 
-This release candidate was built using revision 3982 of the new OBI build tools:
+This release candidate was built using revision 4002 of the new OBI build tools:
 
 http://sourceforge.net/p/obi/code/HEAD/tree/trunk/src/tools/build/
 
 == New in this Release ==
 
-This release contains no new OBI terms. However the terms from ruttenberg-bfo.owl have been replaced with classes from BFO 2 (bfo-classes-only.owl) and with relations from the Relations Ontology (RO's core.owl). This marks a major change that may break some applications, but makes OBI more compatible with other OBO ontologies.
+There are 6 new classes since the 2015-04-13 release:
 
-Complete notes on the conversion are here, including term mappings:
-
-https://svn.code.sf.net/p/obi/code/releases/2015-03-17/BFOconversion/doc/
+- OBI_0002048 Illumina HiSeq 3000
+- OBI_0002049 Illumina HiSeq 4000
+- OBI_0001971 Ion 316 Chip v2
+- OBI_0001972 Ion 318 Chip v2
+- OBI_0001973 ion semiconductor chip
+- OBI_0001974 Ion 314 Chip v2
 
 == Known Issues ==
 
