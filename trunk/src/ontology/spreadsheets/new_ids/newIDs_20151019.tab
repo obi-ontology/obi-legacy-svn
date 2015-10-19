@@ -1,0 +1,51 @@
+Old IRI	New ID	Label	Term Type
+	OBI:0001976	hydrogen/deuterium exchange assay	Class
+	OBI:0001977	cytometry assay	Class
+	OBI:0001978	immunoblot assay	Class
+	OBI:0001979	fluorescence quenching binding assay	Class
+	OBI:0001980	in vivo intervention experiment	Class
+	OBI:0001981	disease exacerbation in vivo intervention experiment	Class
+	OBI:0001982	protection from challenge in vivo intervention experiment	Class
+	OBI:0001983	tolerance induction intervention experiment	Class
+	OBI:0001984	treatment intervention experiment	Class
+	OBI:0001985	microarray assay	Class
+	OBI:0001986	immunohistochemistry	Class
+	OBI:0001987	assay measuring the association constant [KA] of a MHC:ligand complex	Class
+	OBI:0001988	assay measuring the dissociation constant [KD] of a MHC:ligand complex	Class
+	OBI:0001989	purified MHC competitive binding assay measuring equilibrium dissociation constant [KD] of a MHC:ligand complex using radioactivity detection	Class
+	OBI:0001990	assay measuring the half life of a MHC:ligand complex	Class
+	OBI:0001991	assay measuring the half maximal effective concentration [EC50] of a MHC:ligand complex	Class
+	OBI:0001992	assay measuring the half maximal inhibitory concentration [IC50] of a MHC:ligand complex	Class
+	OBI:0001993	assay measuring the off rate measurement [koff] of a MHC:ligand complex	Class
+	OBI:0001994	assay measuring the MHC ligand binding on rate [kon] of a MHC:ligand complex	Class
+	OBI:0001995	chromatography assay measuring the association constant [KA] of a B cell epitope:antibody complex	Class
+	OBI:0001996	chromatography assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex	Class
+	OBI:0001997	hydrogen/deuterium exchange assay measuring binding of a B cell epitope:antibody complex	Class
+	OBI:0001998	immunohistochemistry assay measuring binding of a B cell epitope:antibody complex	Class
+	OBI:0001999	3D structure determining assay of a T cell epitope:MHC:TCR complex	Class
+	OBI:0002050	3D structure determining assay of a MHC:ligand complex	Class
+	OBI:0002051	in vivo assay measuring B cell epitope specific protection from infectious challenge based on pathogen burden	Class
+	OBI:0002052	in vivo assay measuring B cell epitope specific protection from tumor challenge	Class
+	OBI:0002053	microarray assay measuring binding of a B cell epitope:antibody complex	Class
+	OBI:0002054	NMR assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex	Class
+	OBI:0002055	assay measuring T cell epitope specific biological activity	Class
+	OBI:0002056	biological activity assay measuring epitope specific chemokine (C-C motif) ligand 17 production by T cells	Class
+	OBI:0002057	biological activity assay measuring epitope specific macrophage migration inhibitory factor (MIF) production by T cells	Class
+	OBI:0002058	biological activity assay measuring epitope specific oncostatin M production by T cells	Class
+	OBI:0002059	assay measuring a binding constant of a T cell epitope:MHC:TCR complex	Class
+	OBI:0002060	detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 17 production by T cells	Class
+	OBI:0002061	cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 22 production by T cells	Class
+	OBI:0002062	in vitro assay measuring epitope specific T cell killing	Class
+	OBI:0002063	cytometric bead array assay measuring epitope specific granzyme A release by T cells	Class
+	OBI:0002064	detection of specific nucleic acids with complementary probes assay measuring epitope specific granzyme A release by T cells	Class
+	OBI:0002065	cytometric bead array assay measuring epitope specific granzyme B release by T cells	Class
+	OBI:0002066	detection of specific nucleic acids with complementary probes assay measuring epitope specific granzyme B release by T cells	Class
+	OBI:0002067	cytometric bead array assay measuring epitope specific macrophage migration inhibitory factor (MIF) production by T cells	Class
+	OBI:0002068	cytometric bead array assay measuring epitope specific oncostatin M production by T cells	Class
+	OBI:0002069	ELISPOT assay measuring epitope specific perforin release by T cells	Class
+	OBI:0002070	in vivo assay measuring epitope specific proliferation of T cells	Class
+	OBI:0002071	in vitro assay measuring epitope specific proliferation of T cells	Class
+	OBI:0002072	assay measuring qualitiative binding of a MHC:ligand complex	Class
+	OBI:0002073	in vivo assay measuring T cell epitope specific protection from challenge	Class
+	OBI:0002074	in vitro assay measuring T cell epitope specific suppression	Class
+	OBI:0002075	MHC ligand assay	Class
