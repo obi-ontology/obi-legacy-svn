@@ -309,7 +309,9 @@
         <include name="external-byhand.owl"/>
         <include name="obi.owl"/>
         <include name="OntoFox_inputs/*.txt"/>
+        <include name="templates/*.tsv"/>
         <include name="OntoFox_outputs/*.owl"/>
+        <include name="modules/*.owl"/>
       </fileset>
     </copy>
 
