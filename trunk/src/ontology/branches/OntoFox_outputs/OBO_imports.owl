@@ -42,6 +42,8 @@
         <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
         <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
@@ -230,9 +232,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+        <rdfs:label xml:lang="en">cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">cell</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
     </owl:Class>
     
@@ -507,7 +511,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any material within 2 m from the Earth&#39;s surface that is in contact with the atmosphere, with the exclusion of living organisms, areas with continuous ice not covered by other material, and water bodies deeper than 2 m.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil is an environmental material which is primarily composed of minerals, varying proportions of sand, silt, and clay, organic material such as humus, gases, liquids, and a broad range of resident micro- and macroorganisms.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -531,7 +535,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material in or on which organisms may live.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental material</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -549,8 +553,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000855">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulin resistance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased resistance towards insulin, that is, diminished effectiveness of insulin in reducing blood glucose levels.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulin resistance</obo:IAO_0000111>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`Increased resistance` (PATO:0001650) towards `insulin` (PRO:000009054), that is, diminished effectiveness of insulin in reducing blood glucose levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -559,6 +563,18 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000586">
+        <rdfs:label xml:lang="en">infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A part of an extended organism that itself has as part a population of one or more infectious agents and that (1) exists as a result of processes initiated by members of the infectious agent population and is (2) clinically abnormal in virtue of the presence of this infectious agent population, or (3) has a disposition to bring clinical abnormality to immunocompetent organisms of the same Species as the host (the organism corresponding to the extended organism) through transmission of a member or offspring of a member of the infectious agent population.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">infection</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:Class>
     
 
 
@@ -675,7 +691,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001018">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD3 subunit with immunoglobulin domain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain composition consisting of an extracellular N-terminal domain that adopts an immunoglobulin fold, a transmembrane domain, and an intracellular C-terminal domain with a single copy of the Immunoreceptor tyrosine-based activation motif (PF02189) (ITAM). It constitutes the invariant subunit of the T cell antigen receptor (TCR). TCR is a surface receptor on T cells responsible for recognizing MHC-restricted antigens and initiating the cellular immune response.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain composition consisting of an extracellular N-terminal domain that adopts an immunoglobulin fold, a transmembrane domain, and an intracellular C-terminal domain with a single copy of the Immunoreceptor tyrosine-based activation motif (Pfam:PF02189) (ITAM). It constitutes the invariant subunit of the T cell antigen receptor (TCR). TCR is a surface receptor on T cells responsible for recognizing MHC-restricted antigens and initiating the cellular immune response.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD3 subunit with immunoglobulin domain</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
@@ -892,7 +908,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circulating body substance which consists of blood plasma and hemoglobin-carrying red blood cells. Excludes blood analogues (see UBERON:0000179 haemolymphatic fluid).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -916,7 +932,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001013">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adipose tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000055"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connective tissue composed of adipocytes.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of connective tissue composed of adipocytes enmeshed in areolar tissue</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adipose tissue</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
@@ -1012,8 +1028,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001008"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ found in virtually all vertebrate animals with important roles in regard to red blood cells and the immune system.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spleen</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the organ that functions to filter blood and to store red corpuscles and platelets</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
