@@ -1,0 +1,11 @@
+Old IRI	New ID	Label	Term Type
+	OBI:0002076	collection of specimens	Class
+	OBI:0002077	specimens derived from shared ancestor	Class
+	OBI:0002078	specimen set collection process	Class
+	OBI:0002079	specimens collected in one encounter	Class
+	OBI:0002080	human specimen set	Class
+	OBI:0002081	specimens collected longitudinally	Class
+	OBI:0002082	reporter gene assay	Class
+	OBI:0002083	enhancer activity detection by reporter gene assay	Class
+	OBI:0002084	transcription cofactor activity region identification by ChIP-Seq assay	Class
+	OBI:0002085	transcript expression location detection by hybridization chain reaction	Class
