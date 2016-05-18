@@ -154,7 +154,7 @@ http://purl.obolibrary.org/obo/UBERON_0002813
 http://purl.obolibrary.org/obo/UBERON_0005022
 http://purl.obolibrary.org/obo/UBERON_0005023
 http://purl.obolibrary.org/obo/UBERON_0001088
-
+http://purl.obolibrary.org/obo/UBERON_0000007http://purl.obolibrary.org/obo/UBERON_0000173http://purl.obolibrary.org/obo/UBERON_0000310http://purl.obolibrary.org/obo/UBERON_0000362http://purl.obolibrary.org/obo/UBERON_0000945http://purl.obolibrary.org/obo/UBERON_0000947http://purl.obolibrary.org/obo/UBERON_0000948http://purl.obolibrary.org/obo/UBERON_0000956http://purl.obolibrary.org/obo/UBERON_0001037http://purl.obolibrary.org/obo/UBERON_0001087http://purl.obolibrary.org/obo/UBERON_0001089http://purl.obolibrary.org/obo/UBERON_0001090http://purl.obolibrary.org/obo/UBERON_0001155http://purl.obolibrary.org/obo/UBERON_0001225http://purl.obolibrary.org/obo/UBERON_0001255http://purl.obolibrary.org/obo/UBERON_0001264http://purl.obolibrary.org/obo/UBERON_0001268http://purl.obolibrary.org/obo/UBERON_0001323http://purl.obolibrary.org/obo/UBERON_0001359http://purl.obolibrary.org/obo/UBERON_0001621http://purl.obolibrary.org/obo/UBERON_0001797http://purl.obolibrary.org/obo/UBERON_0001836http://purl.obolibrary.org/obo/UBERON_0001913http://purl.obolibrary.org/obo/UBERON_0001970http://purl.obolibrary.org/obo/UBERON_0001987http://purl.obolibrary.org/obo/UBERON_0001988http://purl.obolibrary.org/obo/UBERON_0002037http://purl.obolibrary.org/obo/UBERON_0002046http://purl.obolibrary.org/obo/UBERON_0002048http://purl.obolibrary.org/obo/UBERON_0002097http://purl.obolibrary.org/obo/UBERON_0002367http://purl.obolibrary.org/obo/UBERON_0002369http://purl.obolibrary.org/obo/UBERON_0002371http://purl.obolibrary.org/obo/UBERON_0002409http://purl.obolibrary.org/obo/UBERON_0002469http://purl.obolibrary.org/obo/UBERON_0004648http://purl.obolibrary.org/obo/UBERON_0006911http://purl.obolibrary.org/obo/UBERON_0007311http://purl.obolibrary.org/obo/UBERON_0007610
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000029
@@ -197,6 +197,46 @@ http://purl.obolibrary.org/obo/UBERON_0005023
 subClassOf http://purl.obolibrary.org/obo/CARO_0000043
 http://purl.obolibrary.org/obo/UBERON_0001088
 subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0000007subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0000173subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0000310subClassOf http://purl.obolibrary.org/obo/CARO_0000055
+http://purl.obolibrary.org/obo/UBERON_0000362
+subClassOf http://purl.obolibrary.org/obo/CARO_0000043http://purl.obolibrary.org/obo/UBERON_0000945subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0000947subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0000948subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0000956subClassOf http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/UBERON_0001037subClassOf http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/UBERON_0001087subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001089subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001090subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001155subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0001225subClassOf http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/UBERON_0001255subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0001264subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0001268subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001323subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0001359subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001621subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0001797subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001836subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001913subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001970subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0001987subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0001988subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0002037subClassOf http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/UBERON_0002046subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0002048subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0002097subClassOf http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/UBERON_0002367subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0002369subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/UBERON_0002371subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0002409subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0002469subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0004648subClassOf http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/UBERON_0006911subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0007311subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0007610
+subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 
 [Source term retrieval setting]
 includeNoIntermediates
