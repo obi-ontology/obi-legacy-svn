@@ -231,7 +231,7 @@ http://purl.obolibrary.org/obo/UBERON_0002367subClassOf http://purl.obolibrary.
 http://purl.obolibrary.org/obo/UBERON_0002369subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 http://purl.obolibrary.org/obo/UBERON_0002371subClassOf http://purl.obolibrary.org/obo/CARO_0000004
 http://purl.obolibrary.org/obo/UBERON_0002409subClassOf http://purl.obolibrary.org/obo/CARO_0000004
-http://purl.obolibrary.org/obo/UBERON_0002469subClassOf http://purl.obolibrary.org/obo/CARO_0000004
+http://purl.obolibrary.org/obo/UBERON_0002469subClassOf http://purl.obolibrary.org/obo/CARO_0000043
 http://purl.obolibrary.org/obo/UBERON_0004648subClassOf http://purl.obolibrary.org/obo/CARO_0000043
 http://purl.obolibrary.org/obo/UBERON_0006911subClassOf http://purl.obolibrary.org/obo/CARO_0000004
 http://purl.obolibrary.org/obo/UBERON_0007311subClassOf http://purl.obolibrary.org/obo/CARO_0000004
