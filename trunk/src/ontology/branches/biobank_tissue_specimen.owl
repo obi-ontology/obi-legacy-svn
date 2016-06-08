@@ -1,0 +1,2895 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/biobank_tissue_specimen.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/biobank_tissue_specimen.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002500"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002501"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002502"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002503"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002504"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002505"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002506"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002507"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002508"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002509"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002510"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002511"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002512"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002513"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002514"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002515"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002516"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002517"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002518"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002519"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002520"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002521"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002522"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002523"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002524"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002525"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002526"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002527"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002528"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002529"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002530"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002531"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002532"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002533"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002534"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002535"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002536"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002537"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002538"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002539"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002540"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002541"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0002542"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0600005"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000310"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000362"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000945"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000947"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000948"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000955"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0000956"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001013"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001037"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001087"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001089"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001090"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001134"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001155"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001225"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001255"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001264"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001268"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001323"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001359"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001621"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001797"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001836"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001913"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001970"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001987"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0001988"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002037"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002046"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002048"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002097"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002106"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002367"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002369"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002371"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002409"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0002469"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0004648"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0006911"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0007311"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UBERON_0007610"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000062"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000063"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000113"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000231"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000411"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000424"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000425"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000426"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000427"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000589"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000596"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000597"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000598"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000599"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000601"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000603"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000604"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0100001"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:OBI_0001847"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:OBI_0001886"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:OBI_9991118"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:OBI_9991119"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:RO_0001900"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:coverage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:subject"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:type"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002500"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000173"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002501"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001970"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002502"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001359"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002503"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001988"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002504"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0006911"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002505"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001913"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002506"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002409"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002507"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001836"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002508"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0007311"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002509"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001089"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002510"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002511"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001797"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002512"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002371"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002513"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001987"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002514"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001268"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002515"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001087"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002516"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000955"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002517"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001037"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002518"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002367"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002519"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001134"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002520"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000948"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002521"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000362"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002522"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002369"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002523"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000310"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002524"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001255"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002525"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0007610"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002526"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002097"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002527"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001264"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002528"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000945"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002529"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000007"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002530"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001013"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002531"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001225"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002532"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002469"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002533"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001155"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002534"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002048"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002535"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0004648"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002536"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000956"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002537"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002046"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002538"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002037"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002539"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001323"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002540"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0001621"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002541"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0002106"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0002542"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
+            <Class abbreviatedIRI="obo:UBERON_0000947"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002500"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002500"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002501"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002501"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002502"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002502"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002503"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002503"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002504"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002504"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002505"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002505"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002506"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002506"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002507"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002507"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002508"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002508"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002509"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002509"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002510"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002510"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002511"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002511"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002512"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002512"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002513"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002513"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002514"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002514"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002515"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002515"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002516"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002516"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002517"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002517"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002518"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002518"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002519"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002519"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002520"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002520"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002521"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002521"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002522"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002522"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002523"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002523"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002524"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002524"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002525"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002525"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002526"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002526"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002527"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002527"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002528"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002528"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002529"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002529"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002530"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002530"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002531"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002531"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002532"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002532"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002533"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002533"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002534"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002534"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002535"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002535"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002536"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002536"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002537"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002537"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002538"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002538"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002539"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002539"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002540"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002540"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002541"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002541"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002542"/>
+        <Class abbreviatedIRI="obo:OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0002542"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0600005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000062</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">preceded by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000063</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">precedes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BFO OWL specification label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BFO CLIF specification label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">editor preferred label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">editor preferred term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">editor preferred term~editor preferred label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">example of usage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000113</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">in branch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">textual definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">editor note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">term editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000118</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">alternative term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">definition source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000231</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has obsolescence reason</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">curator note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000411</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">is denotator type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000424</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">expand expression to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000425</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">expand assertion to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000426</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">first order logic expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000427</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">antisymmetric property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000589</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OBO foundry unique label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000596</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has ID digit count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000597</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has ID range allocated to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000598</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has ID policy for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000599</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has ID prefix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">elucidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has associated axiom(nl)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has associated axiom(fol)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000603</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">is allocated id range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000604</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">retired from use as of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0010000</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">has axiom label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0100001</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">term replaced by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001847</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ISA alternative term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001886</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">NIAID GSCID-BRC alternative term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002500</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">amniotic fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002500</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002500</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from amniotic fluid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002500</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002500</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002500</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">amniotic fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002501</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">bile specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002501</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002501</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from bile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002501</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002501</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002501</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">bile specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002502</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cerebrospinal fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002502</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002502</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from cerbrospinal fluid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002502</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002502</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002502</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cerebrospinal fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">feces specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from feces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stool specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002503</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">feces specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">digestive system fluid or secretion specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from digestive system fluid or secretion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">gastric fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002504</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">digestive system fluid or secretion specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002505</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">milk specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002505</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002505</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from milk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002505</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002505</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002505</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">milk specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002506</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pericardial fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002506</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002506</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from pericardial fluid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002506</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002506</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002506</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pericardial fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002507</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">saliva specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002507</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002507</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from saliva.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002507</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002507</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002507</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">saliva specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002508</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sputum specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002508</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002508</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from sputum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002508</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002508</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002508</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sputum specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002509</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sweat specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002509</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002509</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from sweat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002509</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002509</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002509</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sweat specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002510</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">synovial fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002510</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002510</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from synovial fluid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002510</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002510</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002510</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">synovial fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vitreous humor specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from vireous humor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vitreous fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002511</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vitreous humor specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002512</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">bone marrow specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002512</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002512</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from bone marrow.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002512</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002512</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002512</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">bone marrow specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002513</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">placenta specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002513</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002513</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from placenta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002513</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002513</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002513</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">placenta specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002514</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">peritoneal fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002514</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002514</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from peritoneal fluid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002514</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002514</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002514</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">peritoneal fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002515</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pleural fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002515</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002515</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from pleural fluid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002515</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002515</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, Penn Medicine Biobank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002515</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pleural fluid specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002516</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">brain specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002516</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002516</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from brain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002516</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002516</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002516</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">brain specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002517</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hair specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002517</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002517</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from hair.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002517</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002517</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002517</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hair specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002518</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">prostate gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002518</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002518</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from prostate gland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002518</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002518</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002518</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">prostate gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002519</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">skeletal muscle tissue specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002519</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002519</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from skeletal muscle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002519</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002519</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002519</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">skeletal muscle tissue specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002520</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">heart specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002520</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002520</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from heart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002520</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002520</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002520</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">heart specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">renal medulla specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from reanl medulla.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">kidney medulla specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002521</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">renal medulla specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002522</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">adrenal gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002522</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002522</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from adrenal gland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002522</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002522</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002522</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">adrenal gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">breast specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from breast.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">mammary tissue specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002523</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">breast specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002524</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">urinary bladder specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002524</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002524</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from urinary bladder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002524</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002524</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002524</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">urinary bladder specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002525</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">tibial artery specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002525</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002525</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from tibial artery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002525</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002525</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002525</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">tibial artery specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">skin of body specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from skin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">skin specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002526</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">skin of body specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002527</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pancreas specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002527</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002527</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from pancreas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002527</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002527</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002527</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pancreas specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002528</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stomach specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002528</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002528</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from stomach.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002528</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002528</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002528</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stomach specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002529</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pituitary gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002529</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002529</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from pituitary gland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002529</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002529</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002529</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pituitary gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002530</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">adipose tissue specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002530</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002530</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from adipose tissue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002530</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002530</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002530</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">adipose tissue specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cortex of kidney specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from cortex of kidney.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">kidney cortex specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002531</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cortex of kidney specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002532</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">esophagus mucosa specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002532</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002532</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from esophagus mucosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002532</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002532</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002532</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">esophagus mucosa specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002533</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">colon specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002533</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002533</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from colon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002533</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002533</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002533</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">colon specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002534</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">lung specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002534</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002534</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from lung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002534</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002534</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002534</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">lung specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">esophagus muscularis mucosa specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from esophagus muscularis mucosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">esophagus muscularis specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002535</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">esophagus muscularis mucosa specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cerebral cortex specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from cerebral cortex.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">brain cortex specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002536</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cerebral cortex specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002537</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">thyroid gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002537</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002537</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from thyroid gland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002537</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002537</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002537</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">thyroid gland specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cerebellum specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from cerebellum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">brain cerebellum specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002538</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cerebellum specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002539</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">tibial nerve specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002539</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002539</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from tibial nerve.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002539</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002539</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002539</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">tibial nerve specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002540</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">coronary artery specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002540</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002540</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from coronary artery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002540</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002540</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002540</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">coronary artery specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002541</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">spleen specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002541</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002541</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from spleen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002541</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002541</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002541</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">spleen specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0002542</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">aorta specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0002542</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IAO_0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002542</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A specimen that is derived from aorta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0002542</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0002542</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chris Stoeckert, NCI BBRB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0002542</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">aorta specimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_9991118</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">IEDB alternative term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_9991119</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">FGED alternative term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:RO_0001900</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">temporal interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:contributor</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Contributor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:coverage</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Coverage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:creator</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:date</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:description</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:format</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:identifier</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resource Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:language</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:publisher</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Publisher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:relation</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Relation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:rights</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Rights Management</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:source</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:subject</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Subject and Keywords</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:title</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:type</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resource Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:shorthand</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">shorthand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">label</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
