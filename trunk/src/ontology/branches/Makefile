@@ -32,12 +32,12 @@ modules/%.owl: templates/%.tsv
 	template \
 	--template $< \
 	annotate \
-	--ontology-iri "$(MODULES)$@" \
+	--ontology-iri "$(DEV)$@" \
 	--output $@
 
 # Update all modules.
 # NOTE: GNU Make will compare timestamps to see which updates are required.
-modules: modules/obsolete.owl modules/midlevel-assays.owl modules/epitope-assays.owl
+modules: modules/obsolete.owl modules/biobank-specimens.owl modules/midlevel-assays.owl modules/epitope-assays.owl
 
 # Get a list of templated term IDs.
 terms/%.txt: templates/%.tsv
