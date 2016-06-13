@@ -100,7 +100,6 @@
         <dc:creator xml:lang="en">Yongqun He</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl"/>
-        <owl:imports rdf:resource="&obo;biobank_tissue_specimen.owl"/>
         <owl:imports rdf:resource="&obo;bfo/2014-05-03/classes-only.owl"/>
         <owl:imports rdf:resource="&obo;iao/2015-02-23/iao.owl"/>
         <owl:imports rdf:resource="&obo;obi/external-byhand.owl"/>
@@ -114,6 +113,7 @@
         <owl:imports rdf:resource="&obo;obi/dev/import/UO_instance_imports.owl"/>
         <owl:imports rdf:resource="&obo;obi/dev/modules/epitope-assays.owl"/>
         <owl:imports rdf:resource="&obo;obi/dev/modules/midlevel-assays.owl"/>
+        <owl:imports rdf:resource="&obo;obi/dev/modules/biobank-specimens.owl"/>
         <owl:imports rdf:resource="&obo;obi/dev/modules/obsolete.owl"/>
         <owl:imports rdf:resource="&obo;ro/releases/2015-10-07/core.owl"/>
     </owl:Ontology>
@@ -551,12 +551,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000055"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
-
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000062"/>
     
 
 
@@ -1466,12 +1460,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
 
     <owl:Class rdf:about="&obo;BFO_0000004"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000005 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000005"/>
     
 
 
