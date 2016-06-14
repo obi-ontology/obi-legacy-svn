@@ -9,3 +9,6 @@ Old IRI	New ID	Label	Term Type
 	OBI:0002103	bio-layer interferometry assay measuring the off rate [koff] of a B cell epitope:antibody complex	Class
 	OBI:0002104	bio-layer interferometry assay measuring binding of a B cell epitope:antibody complex	Class
 	OBI:0002105	bio-layer interferometry assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex	Class
+	OBI:0002106	carboxyfluorescein succinimidyl ester staining assay	Class
+	OBI:0002107	bio-layer interferometry assay	Class
+	OBI:0002108	small-angle scattering assay	Class

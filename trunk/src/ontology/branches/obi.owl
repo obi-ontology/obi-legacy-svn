@@ -36829,9 +36829,9 @@ https://sourceforge.net/p/obi/obi-terms/766/</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002095 -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0002109 -->
 
-    <owl:Class rdf:about="&obo;OBI_0002096">
+    <owl:Class rdf:about="&obo;OBI_0002109">
         <rdfs:label>Human 6x630K CGH Whole Genome Tiling Array</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001307"/>
         <rdfs:subClassOf>

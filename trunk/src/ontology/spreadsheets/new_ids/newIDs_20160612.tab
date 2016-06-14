@@ -9,4 +9,4 @@ Old IRI	New ID	Label	Term Type
 	OBI:0002093	5' RNA ligase mediated rapid amplification of cDNA ends	Class
 	OBI:0002094	MethylC-Capture sequencing assay	Class
 	OBI:0002095	specimen family creation	Class
-http://purl.obolibrary.org/obo/obi.owl#asdf	OBI:0002106	Human 6x630K CGH Whole Genome Tiling Array	Class
+http://purl.obolibrary.org/obo/obi.owl#asdf	OBI:0002109	Human 6x630K CGH Whole Genome Tiling Array	Class
