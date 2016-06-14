@@ -36829,6 +36829,27 @@ https://sourceforge.net/p/obi/obi-terms/766/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002095 -->
+
+    <owl:Class rdf:about="&obo;OBI_0002096">
+        <rdfs:label>Human 6x630K CGH Whole Genome Tiling Array</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000304"/>
+                <owl:hasValue rdf:resource="&obo;OBI_0001855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?token=snolquwezzwdxuj&amp;acc=GPL18318</obo:IAO_0000119>
+        <obo:IAO_0000117>Jason Hilton, Chris Stoeckert, Bjoern Peters, OBI-group</obo:IAO_0000117>
+        <obo:IAO_0000116>Term request: https://sourceforge.net/p/obi/obi-terms/791/</obo:IAO_0000116>
+        <obo:IAO_0000118>NimbleGen Human 6x630K CGH Whole Genome Tiling Array</obo:IAO_0000118>
+        <obo:IAO_0000115>A tiling array which is manufactured by the Nimblegen corporation to analyze DNA sequence copy number by comparative genomic hybridization for human DNA against 6x630,000 features.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0005246 -->
 
     <owl:Class rdf:about="&obo;OBI_0005246">
@@ -50635,27 +50656,6 @@ realizes some &apos;host of immune response role&apos;</obo:IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/UO_0000051 -->
 
     <owl:Class rdf:about="&obo;UO_0000051"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi.owl#asdf -->
-
-    <owl:Class rdf:about="&obo;obi.owl#asdf">
-        <rdfs:label>Human 6x630K CGH Whole Genome Tiling Array</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001307"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000304"/>
-                <owl:hasValue rdf:resource="&obo;OBI_0001855"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000119>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?token=snolquwezzwdxuj&amp;acc=GPL18318</obo:IAO_0000119>
-        <obo:IAO_0000117>Jason Hilton, Chris Stoeckert, Bjoern Peters, OBI-group</obo:IAO_0000117>
-        <obo:IAO_0000116>Term request: https://sourceforge.net/p/obi/obi-terms/791/</obo:IAO_0000116>
-        <obo:IAO_0000118>NimbleGen Human 6x630K CGH Whole Genome Tiling Array</obo:IAO_0000118>
-        <obo:IAO_0000115>A tiling array which is manufactured by the Nimblegen corporation to analyze DNA sequence copy number by comparative genomic hybridization for human DNA against 6x630,000 features.</obo:IAO_0000115>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </owl:Class>
     
 
 

@@ -1,0 +1,12 @@
+Old IRI	New ID	Label	Term Type
+	OBI:0002086	Tet-assisted bisulfite sequencing assay	Class
+	OBI:0002087	containing a specimen function	Class
+	OBI:0002088	specimen container	Class
+	OBI:0002089	physical store	Class
+	OBI:0002090	rapid amplification of cDNA ends	Class
+	OBI:0002091	5' rapid amplification of cDNA ends	Class
+	OBI:0002092	3' rapid amplification of cDNA ends	Class
+	OBI:0002093	5' RNA ligase mediated rapid amplification of cDNA ends	Class
+	OBI:0002094	MethylC-Capture sequencing assay	Class
+	OBI:0002095	specimen family creation	Class
+http://purl.obolibrary.org/obo/obi.owl#asdf	OBI:0002106	Human 6x630K CGH Whole Genome Tiling Array	Class
