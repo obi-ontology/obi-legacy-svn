@@ -1,0 +1,11 @@
+Old IRI	New ID	Label	Term Type
+	OBI:0002096	carboxyfluorescein succinimidyl ester staining assay measuring epitope specific proliferation of T cells	Class
+	OBI:0002097	assay measuring the dissociation constant [KD] of a T cell epitope:MHC:TCR complex	Class
+	OBI:0002098	assay measuring the on rate [kon] of a T cell epitope:MHC:TCR complex	Class
+	OBI:0002099	assay measuring the off rate [koff] of a T cell epitope:MHC:TCR complex	Class
+	OBI:0002100	assay measuring the association constant [KA] of a T cell epitope:MHC:TCR complex	Class
+	OBI:0002101	small-angle scattering assay determining the 3D structure of a B cell epitope:antibody complex	Class
+	OBI:0002102	bio-layer interferometry assay measuring the on rate [kon] of a B cell epitope:antibody complex	Class
+	OBI:0002103	bio-layer interferometry assay measuring the off rate [koff] of a B cell epitope:antibody complex	Class
+	OBI:0002104	bio-layer interferometry assay measuring binding of a B cell epitope:antibody complex	Class
+	OBI:0002105	bio-layer interferometry assay measuring the dissociation constant [KD] of a B cell epitope:antibody complex	Class
