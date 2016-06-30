@@ -1529,18 +1529,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0000043 -->
-
-    <owl:Class rdf:about="&obo;CARO_0000043"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0000055 -->
-
-    <owl:Class rdf:about="&obo;CARO_0000055"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_15956 -->
 
     <owl:Class rdf:about="&obo;CHEBI_15956">
@@ -12263,7 +12251,7 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">5/29: This is a helper class for now</obo:IAO_0000116>
@@ -18797,7 +18785,7 @@ In the examples above, a reagent is an operational component of a device, but th
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;CARO_0001008"/>
+                            <rdf:Description rdf:about="&obo;UBERON_0000465"/>
                             <rdf:Description rdf:about="&obo;OBI_0100026"/>
                         </owl:unionOf>
                     </owl:Class>
@@ -27354,7 +27342,7 @@ pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
                             <rdf:Description rdf:about="&obo;OBI_0000750"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
+                                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000465"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -28167,7 +28155,7 @@ See tracker: https://sourceforge.net/p/obi/obi-terms/757/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0001479 -->
 
     <owl:Class rdf:about="&obo;OBI_0001479">
-        <rdfs:label xml:lang="en">tissue specimen</rdfs:label>
+        <rdfs:label xml:lang="en">specimen from organism</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -28177,7 +28165,7 @@ See tracker: https://sourceforge.net/p/obi/obi-terms/757/</obo:IAO_0000116>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
+                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0000465"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -28186,7 +28174,7 @@ See tracker: https://sourceforge.net/p/obi/obi-terms/757/</obo:IAO_0000116>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A specimen that derives from an anatomical part or substance arising from an organism. Examples of tissue specimen include tissue, organ, physiological system, blood, or body location (arm).</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">MO_954 organism_part</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">tissue specimen</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">tissue specimen</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </owl:Class>
     
@@ -37469,7 +37457,7 @@ DS: Is this synthetic an oxymoron to the biomaterial?</obo:IAO_0000232>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -46080,7 +46068,7 @@ defines and states the requirements (positive or negative) for an entity to be c
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="&obo;CARO_0001008"/>
+                                                    <rdf:Description rdf:about="&obo;UBERON_0000465"/>
                                                     <rdf:Description rdf:about="&obo;OBI_0100026"/>
                                                 </owl:unionOf>
                                             </owl:Class>
@@ -48054,7 +48042,7 @@ Possible ecological risks of transgenic organism release when transgenes affect 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000465"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>

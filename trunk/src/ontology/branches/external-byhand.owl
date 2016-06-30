@@ -139,17 +139,6 @@
      -->
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0001008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
-        <rdfs:label xml:lang="en">gross anatomical part</rdfs:label>
-        <IAO_0000115 xml:lang="en">Anatomical structure that is part of a multicellular organism and is at the gross anatomical level, e.g. above the level of a cell.  Included are portions of organism substances such as blood, multi-cell-part structures such as axon tracts, acellular anatomical structures such as hair, and organism subdivisions such as head. Excluded is the whole organism and more granular parts of the organism, such as atoms, molecules, macromolecular complexes and cells.</IAO_0000115>
-        <IAO_0000111 xml:lang="en">gross anatomical part</IAO_0000111>
-    </owl:Class>
-
-
     <!-- http://purl.obolibrary.org/obo/CLO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000001">
