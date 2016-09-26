@@ -409,7 +409,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a proteins cut out from a 2D gel by cleaving it into peptides using trypsin digestion using electrospray ionizatino to ensure the peptides are charged, and accelerating them with an electro magnetic field in which the flight path is determined by the mass / charge ratio of the peptides. Comparing the mass/charge ratio of peptides in the proteins with databases of protein sequences allows to identify which protein gave rise to the peptides.</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that identifies the amount and type of material entities present in a sample by fragmenting it and measuring the��mass-to-charge ratio��of the resulting particles.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that identifies the amount and type of material entities present in a sample by fragmenting it and measuring the mass-to-charge ratio of the resulting particles.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass spectrometry assay</rdfs:label>
@@ -635,7 +635,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Running a cell lysate on an acrylamide gel in a western blot aparatus to separate the constituent proteins, followed by transfer of the proteins from the gel to a nitrocellulose membrane. Staining this membrane with specific antibodies to detect the presence of specific proteins of interest.</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that detects specific��peptides in an input material by separating it using gel electrophoresis, transfering the separated molecules to a membrane, and staining them with�� antibodies��specific to the analyte molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that detects specific peptides in an input material by separating it using gel electrophoresis, transfering the separated molecules to a membrane, and staining them with  antibodies specific to the analyte molecules.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra, IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra, IEDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">western blot analysis</rdfs:label>
@@ -1031,7 +1031,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000201"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To evaluate the specificity of antibody binding to 35S-labeled IA-2(256���760) in comparison with 35S-labeled IA-2IC construct, the mutual inhibition activity of different concentrations of unlabeled IA-2IC and/or IA-2(256���760) fragments were tested. Unlabeled recombinant IA-2(256���760) and/or IA-2IC (0.5-, 1-, 2-, and 4-fold the amount of 35S-labeled protein) were added to each tube and incubated overnight at 4�C with patient sera. The following day, after incubation with radiolabeled 35S���IA-2(256���760) or 35S���IA-2IC proteins, samples were processed with the usual radioimmunoprecipitation assay.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To evaluate the specificity of antibody binding to 35S-labeled IA-2(256ÛÒ760) in comparison with 35S-labeled IA-2IC construct, the mutual inhibition activity of different concentrations of unlabeled IA-2IC and/or IA-2(256ÛÒ760) fragments were tested. Unlabeled recombinant IA-2(256ÛÒ760) and/or IA-2IC (0.5-, 1-, 2-, and 4-fold the amount of 35S-labeled protein) were added to each tube and incubated overnight at 4å¡C with patient sera. The following day, after incubation with radiolabeled 35SÛÒIA-2(256ÛÒ760) or 35SÛÒIA-2IC proteins, samples were processed with the usual radioimmunoprecipitation assay.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay in which a radioactive labeled antigen or antibody is used to determine the interaction between an antigen and its receptor. This can be used to detect the presence of an antigen of interest in an input sample or determine the specificity of an input antibody.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000119>
@@ -1650,7 +1650,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A solution of a proteins is titrated into a solution containing a specific antibody. The heat released upon their interaction (��H) is monitored over time where each peak represents a heat change associated with the injection of a small volume of sample into the reaction cell. As successive amounts of the ligand are titrated into the cell, the quantity of heat absorbed or released is in direct proportion to the amount of binding. As the system reaches saturation, the heat signal diminishes until only heats of dilution are observed. A binding curve is then obtained from a plot of the heats from each injection against the ratio of protein and antibody in the cell . </obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A solution of a proteins is titrated into a solution containing a specific antibody. The heat released upon their interaction (ΔH) is monitored over time where each peak represents a heat change associated with the injection of a small volume of sample into the reaction cell. As successive amounts of the ligand are titrated into the cell, the quantity of heat absorbed or released is in direct proportion to the amount of binding. As the system reaches saturation, the heat signal diminishes until only heats of dilution are observed. A binding curve is then obtained from a plot of the heats from each injection against the ratio of protein and antibody in the cell . </obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A binding assay in which the heat generated or absorbed during a binding event is measured, which allows determination of binding constants, reaction stoichiometry, enthalpy and entropy.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000119>
@@ -1954,7 +1954,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that detects specific��molecules in an input material by separating it using gel electrophoresis, transfering the separated molecules to a membrane, and staining them with�� antibodies��specific to the analyte molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that detects specific molecules in an input material by separating it using gel electrophoresis, transfering the separated molecules to a membrane, and staining them with  antibodies specific to the analyte molecules.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoblot assay</rdfs:label>
