@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obi/ChEBI_imports.owl#"
-     xml:base="http://purl.obolibrary.org/obo/obi/ChEBI_imports.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obi/dev/import/ChEBI_imports.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obi/dev/import/ChEBI_imports.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obi/dev/import/ChEBI_imports.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obi/dev/import/ChEBI_imports.owl"/>
     
 
 
@@ -62,7 +62,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic hydroxy compound that has formula H2O.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -278,7 +278,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31624">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A xanthene dye that is a highly fluorescent dye, detectable even when present in minute quantities. Used forensically to detect traces of blood, in analytical chemistry as an indicator in silver nitrate titrations and in microscopy.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A xanthene dye that is highly fluorescent, detectable even when present in minute quantities. Used forensically to detect traces of blood, in analytical chemistry as an indicator in silver nitrate titrations and in microscopy.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -340,6 +340,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity constituting the smallest component of an element having the chemical properties of the element.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atom</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33321">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rare earth metal atom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rare earth metal atom</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
