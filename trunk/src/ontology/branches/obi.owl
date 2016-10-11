@@ -30465,14 +30465,14 @@ PMID: 18332042</obo:IAO_0000112>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000111 xml:lang="en">chromosome organization assay by fluorescence in-situ hybridization</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">chromosome organization assay by fluorescence in situ hybridization</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Duplication of intrachromosomal insertion segments 4q32→q35 confirmed by comparative genomic hybridization and fluorescent in situ hybridization.PMID:22384449</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">is an in-situ hybridization assay that uses fluorescence as means of detection chromosomal integrity</obo:IAO_0000115>
-        <obo:IAO_0000116>Changed label from fluorescence in-situ hybridization as per tracker item #788</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">is an in situ hybridization assay that uses fluorescence as means of detection chromosomal integrity</obo:IAO_0000115>
+        <obo:IAO_0000116>Changed label from fluorescence in situ hybridization as per tracker item #788</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Philippe Rocca-Serra; Marcus Chibucos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">FISH</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">chromosome organization assay by fluorescence in-situ hybridization</rdfs:label>
+        <rdfs:label xml:lang="en">chromosome organization assay by fluorescence in situ hybridization</rdfs:label>
     </owl:Class>
     
 
@@ -30587,7 +30587,7 @@ https://sourceforge.net/p/obi/obi-terms/747/
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000111 xml:lang="en">in-situ hybridization</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">in situ hybridization</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Use of in situ hybridization to examine gene expression in the embryonic, neonatal, and adult urogenital system.
 PMID:22639265
 </obo:IAO_0000112>
@@ -30596,7 +30596,7 @@ PMID:22639265
         <obo:IAO_0000117 xml:lang="en">PERSON:Philippe Rocca-Serra; Marcus Chibucos</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">ISH</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">PMID:9021518</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">in-situ hybridization</rdfs:label>
+        <rdfs:label xml:lang="en">in situ hybridization</rdfs:label>
     </owl:Class>
     
 
@@ -36606,7 +36606,7 @@ https://sourceforge.net/p/obi/obi-terms/766/</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">transcript expression location detection by hybridization chain reaction</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">PMID 25977364: &quot;Multiplexed imaging of mRNA expression using fluorescent hybridization chain reaction (HCR) quantitatively confirmed the expression profiles of lead cells&quot;</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">An in-situ hybridization in which the location (e.g. anatomical/tissue) of a transcript is detected by a multiplexed fluorescent in situ hybridization, based on orthogonal amplification with hybridization chain reactions (HCR). RNA probes complementary to mRNA targets trigger chain reactions in which fluorophore-labeled RNA hairpins self-assemble into tethered fluorescent amplification polymers.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An in situ hybridization in which the location (e.g. anatomical/tissue) of a transcript is detected by a multiplexed fluorescent in situ hybridization, based on orthogonal amplification with hybridization chain reactions (HCR). RNA probes complementary to mRNA targets trigger chain reactions in which fluorophore-labeled RNA hairpins self-assemble into tethered fluorescent amplification polymers.</obo:IAO_0000115>
         <obo:IAO_0000116>See tracker #783</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Paul D. Thomas, Yang Chai</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">transcript expression location detection by fluorescent HCR.</obo:IAO_0000118>
