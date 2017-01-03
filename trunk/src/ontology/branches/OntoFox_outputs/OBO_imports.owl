@@ -534,6 +534,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001866"/>
@@ -608,6 +614,30 @@
         <obo:IAO_0000111>treatment</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000050">
+        <rdfs:label xml:lang="en">fixed tissue specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
+        <obo:IAO_0000115 xml:lang="en">A processed specimen that is the output of a fixation process.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">fixed tissue specimen</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omiabis.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000052">
+        <rdfs:label xml:lang="en">fixed tissue slide specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000050"/>
+        <obo:IAO_0000115 xml:lang="en">A fixed tissue specimen that is placed in a slide.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">fixed tissue slide specimen</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omiabis.owl"/>
     </owl:Class>
     
 
@@ -809,6 +839,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000280">
         <rdfs:label>molecular label</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000111>molecular label</obo:IAO_0000111>
         <obo:IAO_0000115>a molecular reagent intended to associate with some molecular target to serve as a proxy for the presence, abundance, or location of this target in a detection of molecular label assay</obo:IAO_0000115>
         <obo:IAO_0000118>molecular tracer</obo:IAO_0000118>
@@ -1243,7 +1274,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001797">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitreous humor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transparent, semigelatinous substance that fills the cavity behind the crystalline lens of the eye and in front of the retina</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transparent, semigelatinous substance that fills the cavity behind the crystalline lens of the eye and in front of the retina</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitreous humor</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
