@@ -47,8 +47,8 @@
         <dc:creator xml:lang="en">Yongqun He</dc:creator>
         <dc:creator xml:lang="en">Jie Zheng</dc:creator>
         <dc:creator xml:lang="en">Tanya Gray</dc:creator>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-31</dc:date>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator xml:lang="en">Bill Bug</dc:creator>
         <dc:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</dc:contributor>
         <dc:creator xml:lang="en">Lawrence Hunter</dc:creator>
@@ -37040,6 +37040,67 @@ https://www.doi.org/</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400103"/>
+        <obo:IAO_0000111 xml:lang="en">Illumina Genome Analyzer</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A DNA sequencer manufactured by Solexa as one of its first sequencer lines, launched in 2006, and capable of sequencing 1 gigabase (Gb) of data in a single run.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/technology/next-generation-sequencing/solexa-technology.html</obo:IAO_0000119>
+        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <rdfs:label xml:lang="en">Illumina Genome Analyzer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400103"/>
+        <obo:IAO_0000111 xml:lang="en">Illumina HiSeq X Ten</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A DNA sequencer that consists of a set of 10 HiSeq X Sequencing Systems.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton, Sagar Jain, Richard Scheuermann</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">HiSeq X Ten</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/systems/hiseq-x-sequencing-system/system.html</obo:IAO_0000119>
+        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <rdfs:label xml:lang="en">Illumina HiSeq X Ten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001869"/>
+        <obo:IAO_0000111 xml:lang="en">Illumina Infinium Omni5Exome-4 Kit</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">An Illumina BeadChip which is an array that interrogates over 4.3 million whole-genome variants for genotyping and copy number variation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/products/by-type/microarray-kits/infinium-omni5-exome.html</obo:IAO_0000119>
+        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <rdfs:label xml:lang="en">Illumina Infinium Omni5Exome-4 Kit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001870"/>
+        <obo:IAO_0000111 xml:lang="en">Illumina Infinium MethylationEPIC BeadChip</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">An Illumina methylation BeadChip which is an array that interrogates ~ 850,000 methylation sites per sample at single-nucleotide resolution.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jason Hilton</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/humanmethylationepic-data-sheet-1070-2015-008.pdf</obo:IAO_0000119>
+        <dc:source xml:lang="en">ENCODE project</dc:source>
+        <rdfs:label xml:lang="en">Illumina Infinium MethylationEPIC BeadChip</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0005246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0005246">
@@ -52419,5 +52480,5 @@ realizes some &apos;host of immune response role&apos;</obo:IAO_0000232>
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
