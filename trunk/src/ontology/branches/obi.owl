@@ -47,8 +47,8 @@
         <dc:creator xml:lang="en">Yongqun He</dc:creator>
         <dc:creator xml:lang="en">Jie Zheng</dc:creator>
         <dc:creator xml:lang="en">Tanya Gray</dc:creator>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-31</dc:date>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator xml:lang="en">Bill Bug</dc:creator>
         <dc:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</dc:contributor>
         <dc:creator xml:lang="en">Lawrence Hunter</dc:creator>
@@ -37167,6 +37167,21 @@ https://www.doi.org/</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">http://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/humanmethylationepic-data-sheet-1070-2015-008.pdf</obo:IAO_0000119>
         <dc:source xml:lang="en">ENCODE project</dc:source>
         <rdfs:label xml:lang="en">Illumina Infinium MethylationEPIC BeadChip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>An assay that detects differences in protein abundance using samples that have been metabolically labeled in vivo with a stable non-radioactive heavy isotope containing amino acid for a short period of time. After diluting the pulsed cells into growth media without label, high resolution mass spectrometry-based proteomics is used to analyze the time-dependent decay and determine protein stability.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rob Nash</obo:IAO_0000117>
+        <obo:IAO_0000118>dynamic SILAC</obo:IAO_0000118>
+        <obo:IAO_0000118>pulse SILAC</obo:IAO_0000118>
+        <obo:IAO_0000118>pulsed SILAC</obo:IAO_0000118>
+        <obo:IAO_0000119>Schwanhausser et al., 2009 (PMID: 19053139); Frolich et al. 2009 (PMID: 18954100)</obo:IAO_0000119>
+        <rdfs:label>pulse stable isotope labeling by amino acids in cell culture</rdfs:label>
     </owl:Class>
     
 
